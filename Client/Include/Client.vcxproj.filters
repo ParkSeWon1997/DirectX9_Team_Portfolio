@@ -1,0 +1,919 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00. MainApp">
+      <UniqueIdentifier>{31f9223f-9ea1-4975-99ff-d79d1e80eaec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene">
+      <UniqueIdentifier>{032dc322-8cac-402d-b7c8-f28bd295ad01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\00. Logo">
+      <UniqueIdentifier>{b69a622f-1c39-4bf8-a2a6-eea81dad8542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject">
+      <UniqueIdentifier>{d33425c8-21da-4501-8c83-db31b85383d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Player">
+      <UniqueIdentifier>{a6602c64-0898-4b52-bef5-5ee28c0805d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\01. Stage">
+      <UniqueIdentifier>{a905bb56-992b-4611-8993-b5a2b03e9d53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\02. Loading">
+      <UniqueIdentifier>{89705071-0729-4d54-9f78-76eae7401dd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\03. Terrain">
+      <UniqueIdentifier>{17ee7a57-6de4-48cc-8ff7-0036d242cb25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\04. DynamicCamera">
+      <UniqueIdentifier>{86e6126b-c3e2-4dad-bc61-b320b907088e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\05. SkyBox">
+      <UniqueIdentifier>{057f627c-123e-4ed4-85e4-3ed11edbe730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\06. Effect">
+      <UniqueIdentifier>{69e88a4c-ddb1-4a70-a8a5-7d9df5c571a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\08. ResObjects">
+      <UniqueIdentifier>{00ead524-a766-483f-bffa-43a8700f465a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\08. ResObjects\01. Rock">
+      <UniqueIdentifier>{f49cb941-3133-468e-aebf-b01e2d77bd10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\08. ResObjects\02. Grass">
+      <UniqueIdentifier>{1d8589b4-56d3-46d6-8aad-4b2022d312aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Monster">
+      <UniqueIdentifier>{91d043b9-f5ca-44ce-9230-5f48b73bc071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\08. ResObjects\03. Tree">
+      <UniqueIdentifier>{a410062d-05e6-4c94-8fd6-5b51a506c468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\09. Item">
+      <UniqueIdentifier>{720bec18-f636-416c-a5e4-1b7d13a87d45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\09. Item\CItemFood">
+      <UniqueIdentifier>{fdb423ee-441e-41be-931e-1c82f3001f13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Monster\02. Spider">
+      <UniqueIdentifier>{d3a5b963-bd9d-44af-81c9-08fddd98540d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager">
+      <UniqueIdentifier>{d6027554-dace-417e-8176-6fda9623380b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Monster\03. Pig">
+      <UniqueIdentifier>{46c4e956-d443-4fee-8037-f795bc37c842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Monster\04. Boss">
+      <UniqueIdentifier>{404ed600-034b-4c9e-9bf7-4b0509556d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\08. ResObjects\04. PigHouse">
+      <UniqueIdentifier>{806c614c-6b66-4f35-8839-f54d85b977ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Monster\01. Beefalo">
+      <UniqueIdentifier>{f83f9163-d17a-4cdc-85ce-4c1b056c4f8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\Event">
+      <UniqueIdentifier>{a777b96b-dd5b-41a1-bd20-f91b4a2a02d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\08. ResObjects\05. BerryBush">
+      <UniqueIdentifier>{2a7c00b5-04b6-44e4-8357-cdcaa70fc47e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\99. Test">
+      <UniqueIdentifier>{1543790f-723a-4c2e-aeea-d9c1795e5951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\03. BossScene">
+      <UniqueIdentifier>{2f012643-0e89-4ed7-8bd5-e6bc37f2c758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\04. RoadScene">
+      <UniqueIdentifier>{8f6ff8ba-c27e-48ac-951f-e644f0702358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\03. Terrain\RunTerrain">
+      <UniqueIdentifier>{e203e153-be4a-42bd-b0f3-95b24604e94d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\08. ResObjects\06. FireFlies">
+      <UniqueIdentifier>{0c297e33-5d83-42df-b1f1-a7e214f64c7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\08. ResObjects\07. TeleporterWorm">
+      <UniqueIdentifier>{fcf14d32-d8f6-47f3-9c10-0fdfa3a0dd20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\08. ResObjects\08. BossDoor">
+      <UniqueIdentifier>{aaf1ad01-3552-4107-9f17-97cfbb017412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Monster\05. Tallbird">
+      <UniqueIdentifier>{912e9267-1b95-48e6-ad0a-24922a520a47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\09. Item\ItemTool">
+      <UniqueIdentifier>{8714d07b-5bed-4375-91cf-ba5af131ea55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\09. Item\ItemBasic">
+      <UniqueIdentifier>{41dbe8de-9bde-492c-b3d2-885b51fc10ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\UIMgr">
+      <UniqueIdentifier>{93eadb37-63e1-42d9-93aa-8f2d6cf38ef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\InvenBoxMgr">
+      <UniqueIdentifier>{fee9fa8e-3ef7-4825-afa4-120a3f1f6fd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\10. Trap">
+      <UniqueIdentifier>{5d7d096e-d49e-4b91-b177-be4fdb8c5e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\10. Trap\01. Spike">
+      <UniqueIdentifier>{457eb512-7745-499e-86b4-c2256ea80c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\10. Trap\02. ToothTrap">
+      <UniqueIdentifier>{996a8a18-c1c0-48fa-bf63-fce52a2f0338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\10. Trap\03. TumbleWeed">
+      <UniqueIdentifier>{de22da1f-f23a-49ea-a5c0-3d9886c5fe16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\11. Ghost">
+      <UniqueIdentifier>{27cc9905-0271-4565-bac0-efdc38eff15b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\06. Effect\00. Ghost">
+      <UniqueIdentifier>{ea685cc4-e200-4189-9c95-3f60ead51ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\10. Trap\09. CCatapult">
+      <UniqueIdentifier>{87334019-a066-4647-9f9b-f3a72b5975d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\08. ResObjects\10. BonFire">
+      <UniqueIdentifier>{7d73ea03-86cf-4ba3-945a-6e970bdcddd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\08. ResObjects\11. CookingPot">
+      <UniqueIdentifier>{e02210ae-8172-4f18-83d4-06afd0fb9491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\08. ResObjects\12. Tent">
+      <UniqueIdentifier>{d36e3eb9-c16c-4f7f-9bdb-8728a87d4ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\06. Effect\01. BossAttack">
+      <UniqueIdentifier>{f62931ae-91fb-4358-8d91-60c976114d82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\06. Effect\02. Circle">
+      <UniqueIdentifier>{08fb77ba-2de1-4aaa-b7d4-6c0648c87162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\06. Effect\03. IceSpike">
+      <UniqueIdentifier>{c5af6147-59a0-4be5-b5a1-5e3f0fb55447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\06. Effect\03. IceSpike\Left">
+      <UniqueIdentifier>{962836b2-6d4a-499f-8a80-8723f17f03c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\06. Effect\03. IceSpike\Right">
+      <UniqueIdentifier>{4f6a70fd-aac2-4fa5-aa0a-d7a3b3e8033c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\06. Effect\04. IceMissile">
+      <UniqueIdentifier>{d9e02fa3-4fcc-4e8a-a1d4-5b1c55948b1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\06. Effect\04. IceMissile\Left">
+      <UniqueIdentifier>{0cd8ff3d-f2f8-4b89-9b8b-95a247badd3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\06. Effect\04. IceMissile\Right">
+      <UniqueIdentifier>{bb1d84d6-07d0-42c0-ac7c-1ad8077dc99d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\06. Effect\05. FallMark">
+      <UniqueIdentifier>{af785a05-4999-4445-a958-c5c620200df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\06. Effect\06. SnowSplash">
+      <UniqueIdentifier>{6d8c891a-f43f-4722-8953-4d325f9c2ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\12. Mouse">
+      <UniqueIdentifier>{872444c4-a49c-4dc0-8c3f-392ffb34436d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI">
+      <UniqueIdentifier>{581c379a-b1fb-41bb-b56a-54d6521b2626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\01. Inven">
+      <UniqueIdentifier>{c210a81f-8a48-4b57-afc1-29776a1d58fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\01. Inven\Slot">
+      <UniqueIdentifier>{4f5db828-d42f-4d22-8368-b11f8332f38f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\01. Inven\Slot\InvenBox">
+      <UniqueIdentifier>{355ae054-adb7-49a0-9aca-afb03e614781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\01. Inven\Slot\ArmorSlot">
+      <UniqueIdentifier>{da9da99b-003b-4301-b6e7-34a373cc9492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\03. StateUI">
+      <UniqueIdentifier>{ca4e586d-d4ee-4d93-a0ef-58d49d511667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\03. StateUI\HP">
+      <UniqueIdentifier>{2a233b0a-a36c-4ee4-a398-5797f63785dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\03. StateUI\Hungry">
+      <UniqueIdentifier>{11022027-ea73-4b5c-ab8e-95727be53f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\03. StateUI\Mental">
+      <UniqueIdentifier>{58034a28-4714-4ee4-9372-93267a8ef005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\03. StateUI\WorldTime">
+      <UniqueIdentifier>{6560a966-863b-468c-b375-9ca54989f77e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\03. StateUI\WorldTime\WorldHand">
+      <UniqueIdentifier>{1488ca8d-1090-48cd-8ea0-b28c84b45dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\03. StateUI\WorldTime\WorldTimeBody">
+      <UniqueIdentifier>{03ad610f-0fca-4344-8b17-d44e751609a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\03. StateUI\WorldTime\WorldUI">
+      <UniqueIdentifier>{5e96da7c-ddca-48ce-84e7-f17a1954a423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\04. ToolUI">
+      <UniqueIdentifier>{3116b9ca-4620-4d9d-8e8f-f0102d81e6e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\02. CreateUI">
+      <UniqueIdentifier>{ccce8bb0-9d51-48e5-bfd9-1f5d3f02736d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\02. CreateUI\00. Slide">
+      <UniqueIdentifier>{3c104cfe-7125-421e-baf4-6bc8154ea71c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\02. CreateUI\00. Slide\00. SlideBox">
+      <UniqueIdentifier>{de69e5bc-115c-4b10-a242-eedde2f6568b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\02. CreateUI\00. Slide\01. ExplainPanel">
+      <UniqueIdentifier>{15fd1617-dec6-4af4-b5c4-5890e5a1f9cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\02. CreateUI\00. Slide\01. ExplainPanel\00. ButtonUI">
+      <UniqueIdentifier>{7d2f92fa-f6fb-4324-ad15-d81f6752a5de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\05. Cook">
+      <UniqueIdentifier>{283d441e-bad3-4b31-adde-580ea0e06621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\06. AnimationUI">
+      <UniqueIdentifier>{63131860-c17f-4d28-b638-762e090e497c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\06. AnimationUI\02. GenerateHand">
+      <UniqueIdentifier>{0749a4e5-707a-4b7e-b5c3-c1c2b02206c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\06. AnimationUI\01. GenerateMap">
+      <UniqueIdentifier>{04fe03e9-d12a-48e2-97d9-ca8d504013e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\06. AnimationUI\03. BackGround">
+      <UniqueIdentifier>{0c7c0c48-9e98-4986-b004-60aa1508c57c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\10. Trap\09. CCatapult\Projectile">
+      <UniqueIdentifier>{4eda038a-cae0-4755-84d7-40e0edf70b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\06. Effect\07. RebirthAmulet">
+      <UniqueIdentifier>{6b245f73-6004-49b5-bed3-967794227638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\13. Particle">
+      <UniqueIdentifier>{9dc4b3a7-fc5b-4db4-a0c7-c560f8e7d3e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\13. Particle\Snow">
+      <UniqueIdentifier>{9f306b82-f0be-4ecb-a942-75e8a0df48d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\98. LoadingScene">
+      <UniqueIdentifier>{d7795cfb-1114-4859-98fe-08166a91cdd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\05. MainScene">
+      <UniqueIdentifier>{c3640b9e-bc62-43c5-8618-79434d7c4612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\13. Particle\Smoke">
+      <UniqueIdentifier>{68236bce-7b18-4cf0-9e63-bfb7d8eb941b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\06. Effect\08. Sizemic">
+      <UniqueIdentifier>{e106cfe6-f7b4-45f8-b5c4-fd51f806149a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\13. Particle\Dust">
+      <UniqueIdentifier>{20f206dc-7eb1-4656-8a1e-f025b4522d74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\07. EffectUI">
+      <UniqueIdentifier>{490b1ea5-fe1d-4942-a611-42361fb56141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\13. Particle\TreeLeafFall">
+      <UniqueIdentifier>{5ffc96d2-a070-4452-81ce-194545ae5813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\PlayerMgr">
+      <UniqueIdentifier>{f7af329f-3fd7-445e-87cd-f8f2dd7c4f87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\13. Particle\CRockSmoke">
+      <UniqueIdentifier>{eba22688-739c-4151-9303-551982edfbbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\04. DynamicCamera\RoadSceneCamera">
+      <UniqueIdentifier>{4029d41a-ce26-4ec4-8d5d-85949beeafae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\08.MainUI">
+      <UniqueIdentifier>{eab367bc-d232-449f-9d8a-c29466e0a7b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\10. Trap\04. Geyser">
+      <UniqueIdentifier>{fb62d8f3-1429-4f33-a474-c5d7dbcb1ebc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MainApp.h">
+      <Filter>00. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Player.h">
+      <Filter>02. GameObject\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Stage.h">
+      <Filter>01. Scene\01. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Loading.h">
+      <Filter>01. Scene\02. Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Terrain.h">
+      <Filter>02. GameObject\03. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\DynamicCamera.h">
+      <Filter>02. GameObject\04. DynamicCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SkyBox.h">
+      <Filter>02. GameObject\05. SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Effect.h">
+      <Filter>02. GameObject\06. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Logo.h">
+      <Filter>01. Scene\00. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CObjectRock.h">
+      <Filter>02. GameObject\08. ResObjects\01. Rock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CObjectGrass.h">
+      <Filter>02. GameObject\08. ResObjects\02. Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Beefalo.h">
+      <Filter>02. GameObject\01. Monster\01. Beefalo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Monster.h">
+      <Filter>02. GameObject\01. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Spider.h">
+      <Filter>02. GameObject\01. Monster\02. Spider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CObjectTree.h">
+      <Filter>02. GameObject\08. ResObjects\03. Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CItem.h">
+      <Filter>02. GameObject\09. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CItemFood.h">
+      <Filter>02. GameObject\09. Item\CItemFood</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CInven.h">
+      <Filter>02. GameObject\07. UI\01. Inven</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Pig.h">
+      <Filter>02. GameObject\01. Monster\03. Pig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\DeerClops.h">
+      <Filter>02. GameObject\01. Monster\04. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CPigHouse.h">
+      <Filter>02. GameObject\08. ResObjects\04. PigHouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ResObject.h">
+      <Filter>02. GameObject\08. ResObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BerryBush.h">
+      <Filter>02. GameObject\08. ResObjects\05. BerryBush</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ButtonUI.h">
+      <Filter>02. GameObject\07. UI\02. CreateUI\00. Slide\01. ExplainPanel\00. ButtonUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTestScene.h">
+      <Filter>01. Scene\99. Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBossScene.h">
+      <Filter>01. Scene\03. BossScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CRoadScene.h">
+      <Filter>01. Scene\04. RoadScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\RunTerrain.h">
+      <Filter>02. GameObject\03. Terrain\RunTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CObjectFireFlies.h">
+      <Filter>02. GameObject\08. ResObjects\06. FireFlies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTeleporterWorm.h">
+      <Filter>02. GameObject\08. ResObjects\07. TeleporterWorm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CCatapult.h">
+      <Filter>02. GameObject\10. Trap\09. CCatapult</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\CBossDoor.h">
+      <Filter>02. GameObject\08. ResObjects\08. BossDoor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Tallbird.h">
+      <Filter>02. GameObject\01. Monster\05. Tallbird</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CreateUI.h">
+      <Filter>02. GameObject\07. UI\02. CreateUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ExplainPanel.h">
+      <Filter>02. GameObject\07. UI\02. CreateUI\00. Slide\01. ExplainPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SlideUI.h">
+      <Filter>02. GameObject\07. UI\02. CreateUI\00. Slide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SlideBox.h">
+      <Filter>02. GameObject\07. UI\02. CreateUI\00. Slide\00. SlideBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ItemTool.h">
+      <Filter>02. GameObject\09. Item\ItemTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ItemBasic.h">
+      <Filter>02. GameObject\09. Item\ItemBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\UIMgr.h">
+      <Filter>03. Manager\UIMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTrap.h">
+      <Filter>02. GameObject\10. Trap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CSpike.h">
+      <Filter>02. GameObject\10. Trap\01. Spike</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CToothTrap.h">
+      <Filter>02. GameObject\10. Trap\02. ToothTrap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTumbleWeed.h">
+      <Filter>02. GameObject\10. Trap\03. TumbleWeed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SlotMgr.h">
+      <Filter>03. Manager\InvenBoxMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ArmorSlot.h">
+      <Filter>02. GameObject\07. UI\01. Inven\Slot\ArmorSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\InvenSlot.h">
+      <Filter>02. GameObject\07. UI\01. Inven\Slot\InvenBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Slot.h">
+      <Filter>02. GameObject\07. UI\01. Inven\Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Ghost.h">
+      <Filter>02. GameObject\11. Ghost</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CHpUI.h">
+      <Filter>02. GameObject\07. UI\03. StateUI\HP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CHungryUI.h">
+      <Filter>02. GameObject\07. UI\03. StateUI\Hungry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMentalUI.h">
+      <Filter>02. GameObject\07. UI\03. StateUI\Mental</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\StateUI.h">
+      <Filter>02. GameObject\07. UI\03. StateUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\CBonfire.h">
+      <Filter>02. GameObject\08. ResObjects\10. BonFire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\CFIre.h">
+      <Filter>02. GameObject\08. ResObjects\10. BonFire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\CCookingPot.h">
+      <Filter>02. GameObject\08. ResObjects\11. CookingPot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\CTent.h">
+      <Filter>02. GameObject\08. ResObjects\12. Tent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BossEftDown.h">
+      <Filter>02. GameObject\06. Effect\01. BossAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Circle.h">
+      <Filter>02. GameObject\06. Effect\02. Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\IceSpikeL.h">
+      <Filter>02. GameObject\06. Effect\03. IceSpike\Left</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\IceSpikeR.h">
+      <Filter>02. GameObject\06. Effect\03. IceSpike\Right</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\IceMissileL.h">
+      <Filter>02. GameObject\06. Effect\04. IceMissile\Left</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\FallMark.h">
+      <Filter>02. GameObject\06. Effect\05. FallMark</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SnowSplash.h">
+      <Filter>02. GameObject\06. Effect\06. SnowSplash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Mouse.h">
+      <Filter>02. GameObject\12. Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WorldHand.h">
+      <Filter>02. GameObject\07. UI\03. StateUI\WorldTime\WorldHand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WorldTimeBody.h">
+      <Filter>02. GameObject\07. UI\03. StateUI\WorldTime\WorldTimeBody</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WorldUI.h">
+      <Filter>02. GameObject\07. UI\03. StateUI\WorldTime\WorldUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Cook.h">
+      <Filter>02. GameObject\07. UI\05. Cook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CAnimationUI.h">
+      <Filter>02. GameObject\07. UI\06. AnimationUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CGenerateMap.h">
+      <Filter>02. GameObject\07. UI\06. AnimationUI\01. GenerateMap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CGenerateHand.h">
+      <Filter>02. GameObject\07. UI\06. AnimationUI\02. GenerateHand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\IceMissileR.h">
+      <Filter>02. GameObject\06. Effect\04. IceMissile\Right</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CLoadBackGround.h">
+      <Filter>02. GameObject\07. UI\06. AnimationUI\03. BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\CCataProj.h">
+      <Filter>02. GameObject\10. Trap\09. CCatapult\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Rebirth.h">
+      <Filter>02. GameObject\06. Effect\07. RebirthAmulet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CParticle.h">
+      <Filter>02. GameObject\13. Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CSnow.h">
+      <Filter>02. GameObject\13. Particle\Snow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\UI.h">
+      <Filter>02. GameObject\07. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LoadingScene.h">
+      <Filter>01. Scene\98. LoadingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CBGLoading.h">
+      <Filter>02. GameObject\07. UI\06. AnimationUI\03. BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CMainScene.h">
+      <Filter>01. Scene\05. MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CDustParticle.h">
+      <Filter>02. GameObject\13. Particle\Dust</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CSmoke.h">
+      <Filter>02. GameObject\13. Particle\Smoke</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SizemicL.h">
+      <Filter>02. GameObject\06. Effect\08. Sizemic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SizemicR.h">
+      <Filter>02. GameObject\06. Effect\08. Sizemic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CTreeLeafFall.h">
+      <Filter>02. GameObject\13. Particle\TreeLeafFall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PlayerMgr.h">
+      <Filter>03. Manager\PlayerMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\CRockSmoke.h">
+      <Filter>02. GameObject\13. Particle\CRockSmoke</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CRoadSceneCamera.h">
+      <Filter>02. GameObject\04. DynamicCamera\RoadSceneCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\FuncEvent.h">
+      <Filter>03. Manager\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CPlayerHitEffectUI.h">
+      <Filter>02. GameObject\07. UI\07. EffectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\header\CMainUI.h">
+      <Filter>02. GameObject\07. UI\08.MainUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CGeyserTrap.h">
+      <Filter>02. GameObject\10. Trap\04. Geyser</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MainApp.cpp">
+      <Filter>00. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Player.cpp">
+      <Filter>02. GameObject\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Stage.cpp">
+      <Filter>01. Scene\01. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Loading.cpp">
+      <Filter>01. Scene\02. Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Terrain.cpp">
+      <Filter>02. GameObject\03. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DynamicCamera.cpp">
+      <Filter>02. GameObject\04. DynamicCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SkyBox.cpp">
+      <Filter>02. GameObject\05. SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Effect.cpp">
+      <Filter>02. GameObject\06. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Logo.cpp">
+      <Filter>01. Scene\00. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CObjectRock.cpp">
+      <Filter>02. GameObject\08. ResObjects\01. Rock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CObjectGrass.cpp">
+      <Filter>02. GameObject\08. ResObjects\02. Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Beefalo.cpp">
+      <Filter>02. GameObject\01. Monster\01. Beefalo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Spider.cpp">
+      <Filter>02. GameObject\01. Monster\02. Spider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CObjectTree.cpp">
+      <Filter>02. GameObject\08. ResObjects\03. Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CItem.cpp">
+      <Filter>02. GameObject\09. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CItemFood.cpp">
+      <Filter>02. GameObject\09. Item\CItemFood</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CInven.cpp">
+      <Filter>02. GameObject\07. UI\01. Inven</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Pig.cpp">
+      <Filter>02. GameObject\01. Monster\03. Pig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DeerClops.cpp">
+      <Filter>02. GameObject\01. Monster\04. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Monster.cpp">
+      <Filter>02. GameObject\01. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CPigHouse.cpp">
+      <Filter>02. GameObject\08. ResObjects\04. PigHouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ResObject.cpp">
+      <Filter>02. GameObject\08. ResObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ButtonUI.cpp">
+      <Filter>02. GameObject\07. UI\02. CreateUI\00. Slide\01. ExplainPanel\00. ButtonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTestScene.cpp">
+      <Filter>01. Scene\99. Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BerryBush.cpp">
+      <Filter>02. GameObject\08. ResObjects\05. BerryBush</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBossScene.cpp">
+      <Filter>01. Scene\03. BossScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CRoadScene.cpp">
+      <Filter>01. Scene\04. RoadScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RunTerrain.cpp">
+      <Filter>02. GameObject\03. Terrain\RunTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CObjectFireFlies.cpp">
+      <Filter>02. GameObject\08. ResObjects\06. FireFlies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTeleporterWorm.cpp">
+      <Filter>02. GameObject\08. ResObjects\07. TeleporterWorm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CCatapult.cpp">
+      <Filter>02. GameObject\10. Trap\09. CCatapult</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBossDoor.cpp">
+      <Filter>02. GameObject\08. ResObjects\08. BossDoor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Tallbird.cpp">
+      <Filter>02. GameObject\01. Monster\05. Tallbird</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CreateUI.cpp">
+      <Filter>02. GameObject\07. UI\02. CreateUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ExplainPanel.cpp">
+      <Filter>02. GameObject\07. UI\02. CreateUI\00. Slide\01. ExplainPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SlideUI.cpp">
+      <Filter>02. GameObject\07. UI\02. CreateUI\00. Slide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SlideBox.cpp">
+      <Filter>02. GameObject\07. UI\02. CreateUI\00. Slide\00. SlideBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ItemTool.cpp">
+      <Filter>02. GameObject\09. Item\ItemTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ItemBasic.cpp">
+      <Filter>02. GameObject\09. Item\ItemBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UIMgr.cpp">
+      <Filter>03. Manager\UIMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTrap.cpp">
+      <Filter>02. GameObject\10. Trap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CSpike.cpp">
+      <Filter>02. GameObject\10. Trap\01. Spike</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CToothTrap.cpp">
+      <Filter>02. GameObject\10. Trap\02. ToothTrap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTumbleWeed.cpp">
+      <Filter>02. GameObject\10. Trap\03. TumbleWeed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SlotMgr.cpp">
+      <Filter>03. Manager\InvenBoxMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ArmorSlot.cpp">
+      <Filter>02. GameObject\07. UI\01. Inven\Slot\ArmorSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\InvenSlot.cpp">
+      <Filter>02. GameObject\07. UI\01. Inven\Slot\InvenBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Slot.cpp">
+      <Filter>02. GameObject\07. UI\01. Inven\Slot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Header\Ghost.cpp">
+      <Filter>02. GameObject\11. Ghost</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CHpUI.cpp">
+      <Filter>02. GameObject\07. UI\03. StateUI\HP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CHungryUI.cpp">
+      <Filter>02. GameObject\07. UI\03. StateUI\Hungry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMentalUI.cpp">
+      <Filter>02. GameObject\07. UI\03. StateUI\Mental</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StateUI.cpp">
+      <Filter>02. GameObject\07. UI\03. StateUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\CBonfire.cpp">
+      <Filter>02. GameObject\08. ResObjects\10. BonFire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\CFIre.cpp">
+      <Filter>02. GameObject\08. ResObjects\10. BonFire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\CCookingPot.cpp">
+      <Filter>02. GameObject\08. ResObjects\11. CookingPot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\CTent.cpp">
+      <Filter>02. GameObject\08. ResObjects\12. Tent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BossEftDown.cpp">
+      <Filter>02. GameObject\06. Effect\01. BossAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Circle.cpp">
+      <Filter>02. GameObject\06. Effect\02. Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\IceSpikeL.cpp">
+      <Filter>02. GameObject\06. Effect\03. IceSpike\Left</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\IceSpikeR.cpp">
+      <Filter>02. GameObject\06. Effect\03. IceSpike\Right</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\IceMissileL.cpp">
+      <Filter>02. GameObject\06. Effect\04. IceMissile\Left</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FallMark.cpp">
+      <Filter>02. GameObject\06. Effect\05. FallMark</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SnowSplash.cpp">
+      <Filter>02. GameObject\06. Effect\06. SnowSplash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Mouse.cpp">
+      <Filter>02. GameObject\12. Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WorldHand.cpp">
+      <Filter>02. GameObject\07. UI\03. StateUI\WorldTime\WorldHand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WorldTimeBody.cpp">
+      <Filter>02. GameObject\07. UI\03. StateUI\WorldTime\WorldTimeBody</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WorldUI.cpp">
+      <Filter>02. GameObject\07. UI\03. StateUI\WorldTime\WorldUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Cook.cpp">
+      <Filter>02. GameObject\07. UI\05. Cook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CAnimationUI.cpp">
+      <Filter>02. GameObject\07. UI\06. AnimationUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CGenerateMap.cpp">
+      <Filter>02. GameObject\07. UI\06. AnimationUI\01. GenerateMap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CGenerateHand.cpp">
+      <Filter>02. GameObject\07. UI\06. AnimationUI\02. GenerateHand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\IceMissileR.cpp">
+      <Filter>02. GameObject\06. Effect\04. IceMissile\Right</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CLoadBackGround.cpp">
+      <Filter>02. GameObject\07. UI\06. AnimationUI\03. BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CCataProj.cpp">
+      <Filter>02. GameObject\10. Trap\09. CCatapult\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Rebirth.cpp">
+      <Filter>02. GameObject\06. Effect\07. RebirthAmulet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CParticle.cpp">
+      <Filter>02. GameObject\13. Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CSnow.cpp">
+      <Filter>02. GameObject\13. Particle\Snow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UI.cpp">
+      <Filter>02. GameObject\07. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LoadingScene.cpp">
+      <Filter>01. Scene\98. LoadingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CBGLoading.cpp">
+      <Filter>02. GameObject\07. UI\06. AnimationUI\03. BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CMainScene.cpp">
+      <Filter>01. Scene\05. MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CDustParticle.cpp">
+      <Filter>02. GameObject\13. Particle\Dust</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CSmoke.cpp">
+      <Filter>02. GameObject\13. Particle\Smoke</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SizemicL.cpp">
+      <Filter>02. GameObject\06. Effect\08. Sizemic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SizemicR.cpp">
+      <Filter>02. GameObject\06. Effect\08. Sizemic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CTreeLeafFall.cpp">
+      <Filter>02. GameObject\13. Particle\TreeLeafFall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PlayerMgr.cpp">
+      <Filter>03. Manager\PlayerMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CRockSmoke.cpp">
+      <Filter>02. GameObject\13. Particle\CRockSmoke</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CPlayerHitEffectUI.cpp">
+      <Filter>02. GameObject\07. UI\07. EffectUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CRoadSceneCamera.cpp">
+      <Filter>02. GameObject\04. DynamicCamera\RoadSceneCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FuncEvent.cpp">
+      <Filter>03. Manager\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\CMainUI.cpp">
+      <Filter>02. GameObject\07. UI\08.MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CGeyserTrap.cpp">
+      <Filter>02. GameObject\10. Trap\04. Geyser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Rect.hlsl" />
+  </ItemGroup>
+</Project>

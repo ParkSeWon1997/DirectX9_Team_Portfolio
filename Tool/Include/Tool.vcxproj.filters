@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="99. imgui">
+      <UniqueIdentifier>{52230945-cc08-43a4-95bf-5eea6a6bf2a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. imgui\imgui">
+      <UniqueIdentifier>{59931fbd-bbae-4ca6-94af-7eb83ae1983f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. imgui\backend">
+      <UniqueIdentifier>{948a311c-96d0-457d-bc6e-10564d488a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. MainTool">
+      <UniqueIdentifier>{42e77b14-2318-4bbe-98ac-838d94942a3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene">
+      <UniqueIdentifier>{faadec65-bf8c-40aa-9baa-cac07ce9c287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object">
+      <UniqueIdentifier>{34b5dd24-5558-429b-bc3b-1a7947e7ff90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ToolMgr">
+      <UniqueIdentifier>{ddf7bbd0-01e5-4704-b84b-f8f0a8d0e8d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\Stage1">
+      <UniqueIdentifier>{97ac9209-92a9-4dd3-9e8b-07ba10195908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\Stage2">
+      <UniqueIdentifier>{0a24213e-5534-4993-a5bb-e1bc85562461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\Stage3">
+      <UniqueIdentifier>{f6a83992-b0b9-46da-b7bb-38decd1365b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\01. Terrain">
+      <UniqueIdentifier>{fbc69f4a-8083-4514-ab3e-11031f7cb0ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\01. Terrain\ToolTerrain">
+      <UniqueIdentifier>{136b493d-7b8d-4c7a-9247-7491f75cecbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\01. Terrain\ToolCubeTerrain">
+      <UniqueIdentifier>{818527b5-36d5-44f2-84ba-bddc83d8fca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\01. Terrain\ToolBossTerrain">
+      <UniqueIdentifier>{8b69d06e-245c-482a-ab4c-7cf648d7c6d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\02. ToolCamera">
+      <UniqueIdentifier>{c18c0c8f-ed0c-420c-bccd-bb8eaa84164d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\03. ToolSkyBox">
+      <UniqueIdentifier>{80bec7bf-6b5d-43ae-9f6d-b409e86113e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Mgr">
+      <UniqueIdentifier>{420c08ed-5e3f-4f74-b94b-a48dd242359c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\00. Obj">
+      <UniqueIdentifier>{a88fda3e-44b3-4962-8c7c-d68175b86828}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\backend\imgui_impl_dx9.h">
+      <Filter>99. imgui\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\backend\imgui_impl_win32.h">
+      <Filter>99. imgui\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\imgui\imconfig.h">
+      <Filter>99. imgui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\imgui\imgui.h">
+      <Filter>99. imgui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\imgui\imgui_internal.h">
+      <Filter>99. imgui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\imgui\imstb_rectpack.h">
+      <Filter>99. imgui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\imgui\imstb_textedit.h">
+      <Filter>99. imgui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\imgui\imstb_truetype.h">
+      <Filter>99. imgui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MainTool.h">
+      <Filter>00. MainTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ToolTerrain.h">
+      <Filter>02. Object\01. Terrain\ToolTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ToolCamera.h">
+      <Filter>02. Object\02. ToolCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ToolMgr.h">
+      <Filter>03. ToolMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ToolSkyBox.h">
+      <Filter>02. Object\03. ToolSkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\TerrainScene.h">
+      <Filter>01. Scene\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SubScene.h">
+      <Filter>01. Scene\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ToolCubeTerrain.h">
+      <Filter>02. Object\01. Terrain\ToolCubeTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ToolBossScene.h">
+      <Filter>01. Scene\Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ToolBossTerrain.h">
+      <Filter>02. Object\01. Terrain\ToolBossTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ToolObj.h">
+      <Filter>02. Object\00. Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\FuncEvent.h">
+      <Filter>04. Mgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tool.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui\backend\imgui_impl_dx9.cpp">
+      <Filter>99. imgui\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui\backend\imgui_impl_win32.cpp">
+      <Filter>99. imgui\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui\imgui\imgui.cpp">
+      <Filter>99. imgui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui\imgui\imgui_demo.cpp">
+      <Filter>99. imgui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui\imgui\imgui_draw.cpp">
+      <Filter>99. imgui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui\imgui\imgui_tables.cpp">
+      <Filter>99. imgui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui\imgui\imgui_widgets.cpp">
+      <Filter>99. imgui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MainTool.cpp">
+      <Filter>00. MainTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolTerrain.cpp">
+      <Filter>02. Object\01. Terrain\ToolTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolCamera.cpp">
+      <Filter>02. Object\02. ToolCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolMgr.cpp">
+      <Filter>03. ToolMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolSkyBox.cpp">
+      <Filter>02. Object\03. ToolSkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TerrainScene.cpp">
+      <Filter>01. Scene\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SubScene.cpp">
+      <Filter>01. Scene\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolCubeTerrain.cpp">
+      <Filter>02. Object\01. Terrain\ToolCubeTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolBossScene.cpp">
+      <Filter>01. Scene\Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolBossTerrain.cpp">
+      <Filter>02. Object\01. Terrain\ToolBossTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolObj.cpp">
+      <Filter>02. Object\00. Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FuncEvent.cpp">
+      <Filter>04. Mgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Tool.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\imgui\imgui\.editorconfig">
+      <Filter>99. imgui\imgui</Filter>
+    </None>
+    <None Include="..\..\imgui\imgui\.gitattributes">
+      <Filter>99. imgui\imgui</Filter>
+    </None>
+    <None Include="..\..\imgui\imgui\.gitignore">
+      <Filter>99. imgui\imgui</Filter>
+    </None>
+  </ItemGroup>
+</Project>
